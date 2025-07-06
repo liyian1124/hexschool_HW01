@@ -3,4 +3,69 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color:#212529;
+}
+.container {
+    width: 856px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 48px;
+}
+.containerImg {
+    width: 1076px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mb-64 {
+    margin-bottom: 64px;
+}
+.pb-12{
+    padding-bottom: 12px; ;
+}
+.font-1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.font-2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.font-3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.font-green {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #57A203;
+}
+.header {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner {
+    color: #fff;
+    text-align: center;
+    padding: 151px 0;
+}
+.BlockQuote {
+    background-color: #F5FEE7;
+    text-align: center;
+    padding: 32px;
+    border-radius: 4px;
+}
+.MainImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
