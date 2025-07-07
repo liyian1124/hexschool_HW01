@@ -16,36 +16,95 @@
     margin: 0 auto;
     overflow: hidden;
 }
+.mb-12 {
+    margin-bottom: 12px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-48 {
+    margin-bottom: 48px;
+}
 .mb-64 {
     margin-bottom: 64px;
+}
+.pr-8 {
+    padding-right: 8px;
+}
+.pl-8 {
+    padding-left: 8px;
+}
+.pl-12 {
+    padding-left: 12px;
+}
+.pt-8 {
+    padding-top: 8px;
+}
+.pt-24 {
+    padding-top: 24px;
+}
+.pb-3 {
+    padding-bottom: 3px;
+}
+.pb-4 {
+    padding-bottom: 4px;
+}
+.pb-8{
+    padding-bottom: 8px;
 }
 .pb-12{
     padding-bottom: 12px; ;
 }
-.font-1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
+.pb-16 {
+    padding-bottom: 16px;
 }
-.font-2 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
+.pb-24 {
+    padding-bottom: 24px;
 }
-.font-3 {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+.pb-48 {
+    padding-bottom: 48px;
 }
-.font-green {
+.fs-14 {
+    font-size: 14px;
+}
+.fs-20 {
     font-size: 20px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fw-500 {
+    font-weight: 500px;
+}
+.fw-700 {
     font-weight: 700;
+}
+.lh-120 {
+    line-height: 1.2;
+}
+.lh-150 {
     line-height: 1.5;
+}
+.ls-005 {
     letter-spacing: 0.05em;
+}
+.green {
     color: #57A203;
+}
+.bl-1 {
+    border-left: 1px solid #212529;
+}
+.bl-3 {
+    border-left: 3px solid #DEE2E6;
+}
+.bb-1 {
+    border-bottom: 1px solid #DEE2E6;
 }
 .header {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
@@ -68,4 +127,21 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+.History .list {
+    list-style: disc inside;
+}
+.BrandStory .link {
+    display: inline-block;
+    color: #57A203;
+    text-decoration: none;
+    border-bottom: 1px solid #57A203;
+}
+.footer {
+    background-color: #F8F9FA;
+}
+.Copyright {
+    text-align: center;
+    padding: 64px 0;
+    color: rgba(108, 117, 125, 1);
 }
